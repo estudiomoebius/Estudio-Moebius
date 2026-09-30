@@ -1,0 +1,609 @@
+<!DOCTYPE html><html lang="es" class="scroll-smooth" style=""><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Moebius — Portafolio &amp; Taller de Merchandising Físico</title>
+  <meta name="description" content="Ingeniería de merchandising físico y diseño para marcas de creadores, sellos discográficos y proyectos vanguardistas. Calibración Pantone estricta y acabados táctiles.">
+  <meta property="og:title" content="Studio Moebius — Portafolio &amp; Taller">
+  <meta property="og:description" content="Objetos tangibles. Ideas salvajes. Fabricadas en tinta.">
+  <meta property="og:type" content="website">
+  
+  <!-- Google Fonts: Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              DEFAULT: '#d91b82',
+              dark: '#b31268',
+              light: '#fdf2f7',
+              surface: '#faf9fb',
+              darkbg: '#121118',
+              border: '#f0dbe7'
+            }
+          },
+          fontFamily: {
+            sans: ['"Space Grotesk"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      background-color: #faf9fb;
+      color: #1a1a1e;
+      -webkit-font-smoothing: antialiased;
+    }
+    .pattern-bg {
+      background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB8hGa7o-pfR23N-BD2IblH5Uqj-ZF686g2b4tLtEZ6waz8mdXlUygIgolZaiEkgKTUf3oSrRxXUL3wIiQmM6GySZ4iew0TJuujWJljXOD8XsPHTFRljMpY914WYWtpSd9P4KPiR3394vEDwoZT-f9BgHK1B2Y4mbQOpJ_82o6m7iZr3zYv8mC2XE4zoOuIghX7xP45gedRR_nkNfYhfTD5QX1vw2gH6qdLrgWOEu4-0yVn5JLxK6sd1_hIqMvc1CbADQ');
+      background-repeat: repeat;
+      background-size: 240px;
+    }
+    .badge-tag {
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .hide-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .hide-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="flex justify-center bg-zinc-100 min-h-screen text-zinc-900 pb-20">
+
+  <!-- Mobile Viewport Container (adaptable a pantalla completa o vista app) -->
+  <div class="w-full max-w-[440px] bg-white min-h-screen shadow-2xl relative flex flex-col border-x border-zinc-200">
+    
+    <!-- Top Bar Status / Notice Ribbon -->
+    <aside class="bg-black text-white text-[11px] font-medium py-1.5 px-4 tracking-wider flex items-center justify-between border-b border-zinc-800">
+      <div class="flex items-center gap-1.5">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="text-zinc-300 uppercase tracking-widest font-mono text-[10px]">TALLER ACTIVO // 2026</span>
+      </div>
+      <div class="text-[10px] text-zinc-400 font-mono uppercase">
+        MUESTRAS EN 48H • PANTONE EXACT
+      </div>
+    </aside>
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-zinc-200 px-4 py-3 flex items-center justify-between">
+      <a href="#hero-section" class="flex items-center gap-2">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDcMMO3gkZcUfVRnCuSCHuh4U1tb2Br6mrnwVIjMiKwbkRzTcoslTVJ0bJYy31sOenT6v1knDHNzNtRSPfcyldIra4ZJ6mSgjks6qPJSmWMQb897yQF9MdmWK-PJpaB26kdPM3Fut85H-ifc58uZ1-yn3S3JPy2tHLqjWE3iwKMfM9zUm-3j45_NPEGTXsS_Z1-RdcN6RLJ9OZZKsoA9MFrbiDs33EXHeYwRF8Jni25PzqgGGlnguFe_sdHmEhKwXRdA" alt="Logo Studio Moebius Merchandising" class="h-8 object-contain">
+      </a>
+      <a href="#asesoria" class="bg-brand text-white text-xs font-bold px-3 py-1.5 rounded-full hover:bg-brand-dark transition-colors flex items-center gap-1 shadow-sm shadow-brand/30">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sparkles" aria-hidden="true" class="lucide lucide-sparkles w-3.5 h-3.5"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg>
+        <span class="">Cotizar</span>
+      </a>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-1 flex flex-col">
+      
+      <!-- HERO SECTION -->
+      <section id="hero-section" class="px-5 pt-7 pb-8 border-b border-zinc-200 bg-gradient-to-b from-white via-zinc-50 to-white">
+        <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-brand/10 text-brand text-[11px] font-bold tracking-wider uppercase mb-4 border border-brand/20">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="flask-conical" aria-hidden="true" class="lucide lucide-flask-conical w-3.5 h-3.5"><path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"></path><path d="M6.453 15h11.094"></path><path d="M8.5 2h7"></path></svg>
+          <span class="">LAB // SERIE 2026</span>
+        </div>
+
+        <h1 class="text-3xl font-extrabold tracking-tight leading-[1.15] text-zinc-950 mb-3">Productos personalizados.<br>
+          <span class="text-brand">Ideas creativas.</span><br>Los mejores acabados.
+        </h1>
+
+        <p class="text-zinc-600 text-sm leading-relaxed mb-6">La mejor produccion de merchandising físico y diseño para marcas de creadores, productos y proyectos vanguardistas.</p>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col gap-2.5 mb-7">
+          <a href="#muestrario" class="w-full bg-brand text-white font-bold py-3.5 px-4 rounded-xl text-center text-sm tracking-wide shadow-md shadow-brand/25 hover:bg-brand-dark transition flex items-center justify-center gap-2">
+            <span class="">EXPLORAR PORTAFOLIO</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-down" aria-hidden="true" class="lucide lucide-arrow-down w-4 h-4"><path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path></svg>
+          </a>
+          <a href="#asesoria" class="w-full bg-zinc-50 text-zinc-800 font-bold py-3.5 px-4 rounded-xl text-center text-sm border-2 border-zinc-200 hover:border-zinc-300 transition flex items-center justify-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sliders" aria-hidden="true" class="lucide lucide-sliders w-4 h-4 text-brand"><path d="M10 8h4"></path><path d="M12 21v-9"></path><path d="M12 8V3"></path><path d="M17 16h4"></path><path d="M19 12V3"></path><path d="M19 21v-5"></path><path d="M3 14h4"></path><path d="M5 10V3"></path><path d="M5 21v-7"></path></svg>
+            <span class="">SOLICITAR ASESORÍA DE TALLER</span>
+          </a>
+        </div>
+
+        <!-- Metric KPI Cards -->
+        <div class="grid grid-cols-3 gap-2.5 pt-2 border-t border-zinc-200"><div class="bg-zinc-50 p-2.5 rounded-lg border border-zinc-200"><span class="text-xs text-zinc-500 uppercase tracking-wider block font-semibold text-[10px]">MuestrAS</span><span class="text-lg font-bold text-zinc-900 leading-tight block">24h</span><span class="text-[9px] text-brand font-medium block">Express</span></div><div class="bg-zinc-50 p-2.5 rounded-lg border border-zinc-200"><span class="text-xs text-zinc-500 uppercase tracking-wider block font-semibold text-[10px]">entregas</span><span class="text-lg font-bold text-zinc-900 leading-tight block">24h</span><span class="text-[9px] text-brand font-medium block">Tintas</span></div><div class="bg-zinc-50 p-2.5 rounded-lg border border-zinc-200"><span class="text-xs text-zinc-500 uppercase tracking-wider block font-semibold text-[10px]">anticipos</span><span class="text-lg font-bold text-zinc-900 leading-tight block">50%</span><span class="text-[9px] text-brand font-medium block">Registro</span></div></div>
+      </section>
+
+      <!-- TICKER TAPE -->
+      <div class="bg-brand text-white py-2 px-4 overflow-hidden border-y border-brand-dark flex items-center justify-between text-xs font-bold tracking-widest uppercase">
+        <span class="flex items-center gap-1.5"><br></span>
+        <span class="">•</span>
+        <span class="flex items-center gap-1.5">DISEÑO&nbsp;</span>
+        <span class="">•</span>
+        <span class="flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="droplet" aria-hidden="true" class="lucide lucide-droplet w-3.5 h-3.5"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"></path></svg> Sublimacion</span>
+      </div>
+
+      <!-- MUESTRARIO DE MERCH (PORTAFOLIO) -->
+      <section id="muestrario" class="px-5 py-8 border-b border-zinc-200 bg-white">
+        <div class="flex items-center justify-between mb-2">
+          <div class="inline-flex items-center gap-1.5 text-brand text-xs font-bold uppercase tracking-wider">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="layers" aria-hidden="true" class="lucide lucide-layers w-3.5 h-3.5"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path></svg>
+            <span class="">ARCHIVO DE PRODUCCIÓN</span>
+          </div>
+          <span class="text-xs font-mono text-zinc-400">7 ÍTEMS DISPONIBLES</span>
+        </div>
+
+        <h2 class="text-2xl font-bold text-zinc-950 mb-1">Muestrario de Merch</h2>
+        <p class="text-zinc-500 text-xs mb-5">Filtra por soporte y técnica de impresión física de alta precisión.</p>
+
+        <!-- Filtros Rápidos -->
+        <div class="flex items-center gap-2 overflow-x-auto pb-3 mb-6 hide-scrollbar">
+          <button class="px-3.5 py-1.5 bg-zinc-950 text-white rounded-full text-xs font-bold whitespace-nowrap shadow-sm">Todo</button>
+          <button class="px-3.5 py-1.5 bg-zinc-100 text-zinc-600 rounded-full text-xs font-medium hover:bg-zinc-200 whitespace-nowrap">Textil</button>
+          <button class="px-3.5 py-1.5 bg-zinc-100 text-zinc-600 rounded-full text-xs font-medium hover:bg-zinc-200 whitespace-nowrap">Objetos &amp; Accesorios</button>
+          <button class="px-3.5 py-1.5 bg-zinc-100 text-zinc-600 rounded-full text-xs font-medium hover:bg-zinc-200 whitespace-nowrap">Papelería Táctica</button>
+        </div>
+
+        <!-- Lista de Productos / Proyectos -->
+        <div class="space-y-6">
+          
+          <!-- Item 1: Remeras Boxy -->
+          <article class="border border-zinc-200 rounded-2xl overflow-hidden bg-white hover:border-brand/40 transition-all shadow-sm">
+            <div class="relative bg-zinc-900 aspect-[16/10] overflow-hidden flex items-center justify-center">
+              <div class="absolute inset-0 pattern-bg opacity-30"></div>
+              <div class="relative z-10 text-center p-4">
+                <span class="bg-brand text-white text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider mb-2 inline-block">DTF ULTRA-FLEX</span>
+                <h3 class="text-white font-bold text-lg">Boxy Heavyweight Drop-Tee</h3>
+                <p class="text-zinc-400 text-xs mt-1">280 GSM • 100% Algodón Peinado</p>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-center justify-between mb-2">
+                <h4 class="font-bold text-zinc-900 text-base">Remeras Boxy Heavyweight</h4>
+                <span class="text-[11px] font-mono text-zinc-400 uppercase">280 GSM</span>
+              </div>
+              <p class="text-zinc-600 text-xs leading-relaxed mb-3">
+                100% algodón peinado pesado con caída streetwear estructurada. Estampado en CMYK + base blanca de alta densidad, resistente a más de 60 ciclos de lavado industrial.
+              </p>
+              <div class="flex flex-wrap gap-1.5 pt-2 border-t border-zinc-100">
+                <span class="bg-zinc-100 text-zinc-700 text-[10px] font-semibold px-2 py-0.5 rounded">Cuello 3.2cm reforzado</span>
+                <span class="bg-zinc-100 text-zinc-700 text-[10px] font-semibold px-2 py-0.5 rounded">Preencogido</span>
+                <span class="bg-brand/10 text-brand text-[10px] font-semibold px-2 py-0.5 rounded">Acabado Táctil Superior</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 2: Pins Velvet & Espejos -->
+          <article class="border border-zinc-200 rounded-2xl overflow-hidden bg-white hover:border-brand/40 transition-all shadow-sm">
+            <div class="relative bg-zinc-900 aspect-[16/10] overflow-hidden flex items-center justify-center">
+              <div class="absolute inset-0 pattern-bg opacity-20"></div>
+              <div class="relative z-10 text-center p-4">
+                <span class="bg-brand text-white text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider mb-2 inline-block">VELVET SOFT-TOUCH</span>
+                <h3 class="text-white font-bold text-lg">Pins &amp; Espejos Holográficos</h3>
+                <p class="text-zinc-400 text-xs mt-1">Acabado Antirayaduras • Trasera de Zinc</p>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-center justify-between mb-2">
+                <h4 class="font-bold text-zinc-900 text-base">Pins Soft-Touch &amp; Espejos</h4>
+                <span class="text-[11px] font-mono text-zinc-400 uppercase">32MM / 58MM</span>
+              </div>
+              <p class="text-zinc-600 text-xs leading-relaxed mb-3">
+                Laminado aterciopelado anti-rayaduras o efecto holográfico prismático. Trasera en metal zinc con broche de seguridad o espejo de aumento óptico.
+              </p>
+              <div class="flex flex-wrap gap-1.5 pt-2 border-t border-zinc-100">
+                <span class="bg-zinc-100 text-zinc-700 text-[10px] font-semibold px-2 py-0.5 rounded">Cartón soporte perforado</span>
+                <span class="bg-brand/10 text-brand text-[10px] font-semibold px-2 py-0.5 rounded">Foil holográfico opcional</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 3: Botellas Térmicas UV 360 -->
+          <article class="border border-zinc-200 rounded-2xl overflow-hidden bg-white hover:border-brand/40 transition-all shadow-sm">
+            <div class="relative bg-zinc-900 aspect-[16/10] overflow-hidden flex items-center justify-center">
+              <div class="absolute inset-0 pattern-bg opacity-30"></div>
+              <div class="relative z-10 text-center p-4">
+                <span class="bg-brand text-white text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider mb-2 inline-block">UV ROTATIVO 360°</span>
+                <h3 class="text-white font-bold text-lg">Botellas Térmicas Inox</h3>
+                <p class="text-zinc-400 text-xs mt-1">Barniz Táctil 3D • Grado Industrial</p>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-center justify-between mb-2">
+                <h4 class="font-bold text-zinc-900 text-base">Botellas Térmicas UV 360°</h4>
+                <span class="text-[11px] font-mono text-zinc-400 uppercase">750 ML</span>
+              </div>
+              <p class="text-zinc-600 text-xs leading-relaxed mb-3">
+                Impresión continua sin empalme en todo el perímetro. Doble capa de barniz táctil con relieve 3D sobre acero inoxidable doble pared con aislamiento térmico 24h.
+              </p>
+              <div class="flex flex-wrap gap-1.5 pt-2 border-t border-zinc-100">
+                <span class="bg-zinc-100 text-zinc-700 text-[10px] font-semibold px-2 py-0.5 rounded">Libre de BPA</span>
+                <span class="bg-zinc-100 text-zinc-700 text-[10px] font-semibold px-2 py-0.5 rounded">Tapa a rosca hermética</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 4: Tote Bags Canvas Heavy -->
+          <article class="border border-zinc-200 rounded-2xl overflow-hidden bg-white hover:border-brand/40 transition-all shadow-sm">
+            <div class="relative bg-zinc-900 aspect-[16/10] overflow-hidden flex items-center justify-center">
+              <div class="absolute inset-0 pattern-bg opacity-25"></div>
+              <div class="relative z-10 text-center p-4">
+                <span class="bg-brand text-white text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider mb-2 inline-block">LONA 14 OZ</span>
+                <h3 class="text-white font-bold text-lg">Heavy Canvas Tote</h3>
+                <p class="text-zinc-400 text-xs mt-1">Costuras Remalladas • Fuelle Reforzado</p>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-center justify-between mb-2">
+                <h4 class="font-bold text-zinc-900 text-base">Tote Bags Canvas Heavy</h4>
+                <span class="text-[11px] font-mono text-zinc-400 uppercase">14 OZ</span>
+              </div>
+              <p class="text-zinc-600 text-xs leading-relaxed mb-3">
+                Lona cruda de algodón puro con fuelle de base amplio. Serigrafía de alta cobertura con tintas plastisol ecológicas y costuras interiores remalladas.
+              </p>
+              <div class="flex flex-wrap gap-1.5 pt-2 border-t border-zinc-100">
+                <span class="bg-zinc-100 text-zinc-700 text-[10px] font-semibold px-2 py-0.5 rounded">Formato reforzado</span>
+                <span class="bg-brand/10 text-brand text-[10px] font-semibold px-2 py-0.5 rounded">Serigrafía Alta Densidad</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 5: Láminas Riso Flúor -->
+          <article class="border border-zinc-200 rounded-2xl overflow-hidden bg-white hover:border-brand/40 transition-all shadow-sm">
+            <div class="relative bg-zinc-900 aspect-[16/10] overflow-hidden flex items-center justify-center">
+              <div class="absolute inset-0 pattern-bg opacity-35"></div>
+              <div class="relative z-10 text-center p-4">
+                <span class="bg-brand text-white text-[10px] font-extrabold px-2.5 py-1 rounded uppercase tracking-wider mb-2 inline-block">RISOGRAPH FLÚOR</span>
+                <h3 class="text-white font-bold text-lg">Ediciones de Arte &amp; Print</h3>
+                <p class="text-zinc-400 text-xs mt-1">Papel Munken 240g • Tintas de Soja</p>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-center justify-between mb-2">
+                <h4 class="font-bold text-zinc-900 text-base">Láminas Riso Flúor</h4>
+                <span class="text-[11px] font-mono text-zinc-400 uppercase">A3 / 240 GSM</span>
+              </div>
+              <p class="text-zinc-600 text-xs leading-relaxed mb-3">
+                Impresión stencil basada en aceite de soja sobre papel Munken Lynx 240g. Textura granulada analógica imposible de replicar en digital con rosas fosforescentes de alto impacto.
+              </p>
+              <div class="flex flex-wrap gap-1.5 pt-2 border-t border-zinc-100">
+                <span class="bg-brand/10 text-brand text-[10px] font-semibold px-2 py-0.5 rounded">Tintas de Soja</span>
+                <span class="bg-zinc-100 text-zinc-700 text-[10px] font-semibold px-2 py-0.5 rounded">Grano Analógico Único</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- SECCIÓN GARANTÍA DE COLOR -->
+      <section class="bg-brand text-white px-5 py-8 relative overflow-hidden">
+        <div class="absolute -right-10 -bottom-10 opacity-15 w-60 h-60 pattern-bg pointer-events-none rounded-full"></div>
+        <div class="relative z-10">
+          <span class="text-[10px] font-bold tracking-widest uppercase text-pink-200 block mb-1">MANUFACTURA SIN INTERMEDIARIOS</span>
+          <h2 class="text-2xl font-black leading-tight mb-3">¿Tu tirada requiere calibración extrema?</h2>
+          <p class="text-pink-100 text-xs leading-relaxed mb-5">
+            Cada milímetro se ajusta en nuestro taller. Contamos con operarios especializados en preimpresión que auditan tus vectores antes de tocar una sola gota de tinta.
+          </p>
+
+          <div class="bg-white text-zinc-900 p-4 rounded-xl shadow-lg border border-pink-200/50">
+            <div class="flex items-center gap-2 text-brand font-bold text-sm mb-1.5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true" class="lucide lucide-check-circle-2 w-4 h-4 text-brand"><circle cx="12" cy="12" r="10"></circle><path d="m16 9-5.5 5.5L8 12"></path></svg>
+              <span class="">Garantía Moebius Exact-Color</span>
+            </div>
+            <p class="text-zinc-600 text-xs leading-normal">
+              Si el tono impreso no coincide dentro de un Delta-E &lt; 2 con tu referencia Pantone Solid Coated aprobada, reimprimimos el lote completo sin costo extra.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICIOS DE INGENIERÍA DE MERCH -->
+      <section id="servicios" class="px-5 py-8 border-b border-zinc-200 bg-white">
+        <div class="inline-flex items-center gap-1.5 text-brand text-xs font-bold uppercase tracking-wider mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="wrench" aria-hidden="true" class="lucide lucide-wrench w-3.5 h-3.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"></path></svg>
+          <span class="">TÉCNICAS DE TALLER</span>
+        </div>
+        <h2 class="text-2xl font-bold text-zinc-950 mb-1">Servicios de Ingeniería de Merch</h2>
+        <p class="text-zinc-500 text-xs mb-6">Procesos industriales combinados con rigor artesanal de diseño gráfico.</p>
+
+        <div class="space-y-3.5">
+          
+          <div class="p-4 rounded-xl border border-zinc-200 hover:border-brand/30 transition flex gap-3.5 items-start">
+            <div class="w-9 h-9 rounded-lg bg-pink-50 text-brand flex items-center justify-center shrink-0 border border-brand/20">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="pen-tool" aria-hidden="true" class="lucide lucide-pen-tool w-4 h-4"><path d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"></path><path d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"></path><path d="m2.3 2.3 7.286 7.286"></path><circle cx="11" cy="11" r="2"></circle></svg>
+            </div>
+            <div>
+              <h3 class="font-bold text-zinc-900 text-sm mb-1">Diseño &amp; Adaptación Vectorial</h3>
+              <p class="text-zinc-600 text-xs leading-relaxed">
+                Separación de canales de color, simulación de trampas y optimización de curvas para que tus artes brillen sin empaste sobre sustratos oscuros.
+              </p>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-xl border border-zinc-200 hover:border-brand/30 transition flex gap-3.5 items-start">
+            <div class="w-9 h-9 rounded-lg bg-pink-50 text-brand flex items-center justify-center shrink-0 border border-brand/20">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="box" aria-hidden="true" class="lucide lucide-box w-4 h-4"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path><path d="m3.3 7 8.7 5 8.7-5"></path><path d="M12 22V12"></path></svg>
+            </div>
+            <div>
+              <h3 class="font-bold text-zinc-900 text-sm mb-1">Prototipado 3D &amp; Strike-Off</h3>
+              <p class="text-zinc-600 text-xs leading-relaxed">
+                Previsualización hiperrealista y validación física previa antes de encender las máquinas para la producción en masa.
+              </p>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-xl border border-zinc-200 hover:border-brand/30 transition flex gap-3.5 items-start">
+            <div class="w-9 h-9 rounded-lg bg-pink-50 text-brand flex items-center justify-center shrink-0 border border-brand/20">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sparkles" aria-hidden="true" class="lucide lucide-sparkles w-4 h-4"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg>
+            </div>
+            <div>
+              <h3 class="font-bold text-zinc-900 text-sm mb-1">Barniz UV Táctil &amp; Relieve 3D</h3>
+              <p class="text-zinc-600 text-xs leading-relaxed">
+                Capas tridimensionales transparentes de polímero UV para generar texturas táctiles, brillos selectivos y acabados sensoriales de lujo.
+              </p>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-xl border border-zinc-200 hover:border-brand/30 transition flex gap-3.5 items-start">
+            <div class="w-9 h-9 rounded-lg bg-pink-50 text-brand flex items-center justify-center shrink-0 border border-brand/20">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="package" aria-hidden="true" class="lucide lucide-package w-4 h-4"><path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z"></path><path d="M12 22V12"></path><polyline points="3.29 7 12 12 20.71 7"></polyline><path d="m7.5 4.27 9 5.15"></path></svg>
+            </div>
+            <div>
+              <h3 class="font-bold text-zinc-900 text-sm mb-1">Packaging &amp; Kits Unboxing</h3>
+              <p class="text-zinc-600 text-xs leading-relaxed">
+                Cajas troqueladas personalizadas, precintos serigrafiados, stickers en vinilo holográfico y tags numerados para colecciones de edición limitada.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ASESORÍA DE PRODUCCIÓN A MEDIDA (SIN PRECIOS) -->
+      <section id="asesoria" class="px-5 py-8 border-b border-zinc-200 bg-zinc-50">
+        <div class="inline-flex items-center gap-1.5 text-brand text-xs font-bold uppercase tracking-wider mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="calculator" aria-hidden="true" class="lucide lucide-calculator w-3.5 h-3.5"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg>
+          <span class="">TALLER DE ESPECIFICACIÓN</span>
+        </div>
+        <h2 class="text-2xl font-bold text-zinc-950 mb-1">Asesoría de Producción a Medida</h2>
+        <p class="text-zinc-500 text-xs mb-6">Configura los requerimientos de tu proyecto y recibe una auditoría técnica directa de nuestro equipo de preimpresión.</p>
+
+        <form class="space-y-5 bg-white p-5 rounded-2xl border border-zinc-200 shadow-sm" onsubmit="event.preventDefault(); alert('¡Solicitud de especificación técnica enviada! Un ingeniero de Studio Moebius te responderá en menos de 2 horas.');">
+          
+          <!-- Paso 1 -->
+          <div>
+            <label class="block text-xs font-bold text-zinc-800 uppercase tracking-wider mb-2">
+              1. Soporte Principal de Merchandising
+            </label>
+            <select class="w-full bg-zinc-50 border border-zinc-300 rounded-xl px-3.5 py-2.5 text-xs font-medium text-zinc-800 focus:outline-none focus:border-brand">
+              <option>Remeras Boxy Heavyweight (280 GSM W)</option>
+              <option>Heavy Duck Canvas Tote (14 OZ)</option>
+              <option>Botellas Térmicas UV 360° (750 ML)</option>
+              <option>Pins Soft-Touch &amp; Espejos Holográficos</option>
+              <option>Láminas Riso Stencil Flúor (A3)</option>
+            </select>
+          </div>
+
+          <!-- Paso 2 -->
+          <div>
+            <div class="flex justify-between items-center mb-2">
+              <label class="block text-xs font-bold text-zinc-800 uppercase tracking-wider">
+                2. Volumen Estimado de Producción
+              </label>
+              <span class="text-xs font-bold text-brand font-mono">100 unidades</span>
+            </div>
+            <input type="range" min="20" max="1000" value="100" class="w-full accent-brand cursor-pointer">
+            <div class="flex justify-between text-[10px] text-zinc-400 font-mono mt-1">
+              <span class="">20u (Cápsula)</span>
+              <span class="">250u</span>
+              <span class="">500u</span>
+              <span class="">1000+u (Gran Escala)</span>
+            </div>
+          </div>
+
+          <!-- Paso 3 -->
+          <div>
+            <label class="block text-xs font-bold text-zinc-800 uppercase tracking-wider mb-2">
+              3. Requerimientos y Acabados de Taller
+            </label>
+            <div class="space-y-2">
+              <label class="flex items-center gap-2.5 p-2.5 rounded-lg border border-zinc-200 text-xs font-medium cursor-pointer hover:bg-zinc-50">
+                <input type="checkbox" checked="" class="accent-brand rounded">
+                <span class="flex-1 text-zinc-700">Barniz UV Táctil / Relieve 3D Dimensional</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sparkles" aria-hidden="true" class="lucide lucide-sparkles w-3.5 h-3.5 text-brand"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg>
+              </label>
+              <label class="flex items-center gap-2.5 p-2.5 rounded-lg border border-zinc-200 text-xs font-medium cursor-pointer hover:bg-zinc-50">
+                <input type="checkbox" class="accent-brand rounded">
+                <span class="flex-1 text-zinc-700">Embolsado compostable individual con sticker serigrafiado</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="tag" aria-hidden="true" class="lucide lucide-tag w-3.5 h-3.5 text-zinc-400"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"></path><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"></circle></svg>
+              </label>
+              <label class="flex items-center gap-2.5 p-2.5 rounded-lg border border-zinc-200 text-xs font-medium cursor-pointer hover:bg-zinc-50">
+                <input type="checkbox" checked="" class="accent-brand rounded">
+                <span class="flex-1 text-zinc-700">Prueba de color física (Strike-Off previo)</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-3.5 h-3.5 text-brand"><path d="M20 6 9 17l-5-5"></path></svg>
+              </label>
+            </div>
+          </div>
+
+          <!-- Resumen de Auditoría -->
+          <div class="bg-zinc-50 p-3.5 rounded-xl border border-zinc-200 text-xs space-y-1.5">
+            <div class="flex justify-between text-zinc-600">
+              <span class="">Soporte Seleccionado:</span>
+              <span class="font-bold text-zinc-900">Remeras Boxy Heavyweight</span>
+            </div>
+            <div class="flex justify-between text-zinc-600">
+              <span class="">Tiempo de Producción Estimado:</span>
+              <span class="font-bold text-brand font-mono">5 a 7 Días Hábiles</span>
+            </div>
+            <div class="flex justify-between text-zinc-600">
+              <span class="">Calibración de Taller:</span>
+              <span class="font-bold text-zinc-900 font-mono">Pantone Solid Coated 100%</span>
+            </div>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="w-full bg-brand text-white font-bold py-3.5 px-4 rounded-xl text-center text-xs tracking-wider uppercase hover:bg-brand-dark transition shadow-md shadow-brand/20 flex items-center justify-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="send" aria-hidden="true" class="lucide lucide-send w-3.5 h-3.5"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path><path d="m21.854 2.147-10.94 10.939"></path></svg>
+            <span class="">Solicitar Especificación Técnica</span>
+          </button>
+          
+          <p class="text-[10px] text-center text-zinc-400 leading-tight">
+            * Un ingeniero de taller se comunicará directamente para revisar tus archivos y confirmar la factibilidad técnica en menos de 2 horas.
+          </p>
+        </form>
+      </section>
+
+      <!-- CREA TU MUESTRA PERSONALIZADA (FONDO PATRÓN MOEBIUS) -->
+      <section id="crea-tu-muestra" class="relative px-5 py-8 text-white overflow-hidden bg-brand-dark">
+        <!-- Fondo Patrón Geométrico Moebius -->
+        <div class="absolute inset-0 pattern-bg opacity-20 pointer-events-none"></div>
+
+        <div class="relative z-10">
+          <div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/10 text-pink-200 text-[10px] font-bold tracking-wider uppercase mb-3 border border-white/20">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-square" aria-hidden="true" class="lucide lucide-check-square w-3 h-3"><path d="M21 10.656V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.344"></path><path d="m9 11 3 3L22 4"></path></svg>
+            <span class="">PROTOTIPADO &amp; STRIKE-OFF</span>
+          </div>
+
+          <h2 class="text-2xl font-black tracking-tight leading-tight mb-2">Crea tu muestra personalizada.</h2>
+          <p class="text-pink-100 text-xs leading-relaxed mb-6">
+            Solicita tu kit físico de pruebas a medida para comprobar y validar directamente en mano el gramaje textil, la vibración de tintas DTF Ultra-Flex, Risograph y la densidad del relieve 3D antes de fabricar tu tirada completa.
+          </p>
+
+          <!-- Tarjeta del Configurador de Muestra -->
+          <div class="bg-white text-zinc-900 rounded-2xl p-5 shadow-2xl border border-pink-200/40">
+            
+            <div class="flex items-center justify-between pb-3 border-b border-zinc-100 mb-4">
+              <span class="text-xs font-bold text-zinc-900 uppercase tracking-wider">1. Componentes del Kit Físico</span>
+              <span class="text-[10px] bg-pink-100 text-brand font-bold px-2 py-0.5 rounded-full">Personalizado a Medida</span>
+            </div>
+
+            <div class="space-y-2.5 mb-5">
+              <label class="flex items-center gap-3 p-2.5 rounded-xl border border-zinc-200 text-xs font-medium cursor-pointer hover:bg-zinc-50">
+                <input type="checkbox" checked="" class="accent-brand rounded">
+                <div class="flex-1">
+                  <span class="font-bold text-zinc-900 block">Muestras Textiles</span>
+                  <span class="text-[11px] text-zinc-500">280g Boxy + Jersey Peinado</span>
+                </div>
+                <span class="text-[10px] font-mono text-zinc-400">Textil</span>
+              </label>
+
+              <label class="flex items-center gap-3 p-2.5 rounded-xl border border-zinc-200 text-xs font-medium cursor-pointer hover:bg-zinc-50">
+                <input type="checkbox" checked="" class="accent-brand rounded">
+                <div class="flex-1">
+                  <span class="font-bold text-zinc-900 block">Carta de Tintas DTF Ultra-Flex &amp; Riso Soja</span>
+                  <span class="text-[11px] text-zinc-500">Gamas flúor y blanco puro de alto cubrimiento</span>
+                </div>
+                <span class="text-[10px] font-mono text-brand font-bold">Flúor</span>
+              </label>
+
+              <label class="flex items-center gap-3 p-2.5 rounded-xl border border-zinc-200 text-xs font-medium cursor-pointer hover:bg-zinc-50">
+                <input type="checkbox" checked="" class="accent-brand rounded">
+                <div class="flex-1">
+                  <span class="font-bold text-zinc-900 block">Acabados Especiales Barniz UV 3D &amp; Foil</span>
+                  <span class="text-[11px] text-zinc-500">Pruebas táctiles dimensionales</span>
+                </div>
+                <span class="text-[10px] font-mono text-zinc-400">Táctil</span>
+              </label>
+            </div>
+
+            <!-- Formulario de Envío de Muestra -->
+            <form onsubmit="event.preventDefault(); alert('¡Solicitud de muestra registrada con éxito! Despacharemos tu kit de prueba dentro de las próximas 48 horas.');" class="space-y-3 pt-3 border-t border-zinc-100">
+              <div>
+                <label class="block text-[11px] font-bold text-zinc-700 uppercase tracking-wider mb-1">
+                  Email de Contacto o WhatsApp
+                </label>
+                <input type="text" placeholder="creador@tu-marca.com" required="" class="w-full bg-zinc-50 border border-zinc-300 rounded-xl px-3.5 py-2.5 text-xs text-zinc-900 placeholder:text-zinc-400 focus:outline-none focus:border-brand">
+              </div>
+
+              <div>
+                <label class="block text-[11px] font-bold text-zinc-700 uppercase tracking-wider mb-1">
+                  Dirección Completa para Envío del Muestrario
+                </label>
+                <input type="text" placeholder="Calle, Número, Ciudad, Código Postal" required="" class="w-full bg-zinc-50 border border-zinc-300 rounded-xl px-3.5 py-2.5 text-xs text-zinc-900 placeholder:text-zinc-400 focus:outline-none focus:border-brand">
+              </div>
+
+              <button type="submit" class="w-full bg-brand text-white font-bold py-3.5 px-4 rounded-xl text-xs tracking-wider uppercase hover:bg-brand-dark transition shadow-lg shadow-brand/30 flex items-center justify-center gap-2 mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="package-check" aria-hidden="true" class="lucide lucide-package-check w-4 h-4"><path d="M12 22V12"></path><path d="m16 17 2 2 4-4"></path><path d="M21 11.127V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l1.32-.753"></path><path d="M3.29 7 12 12l8.71-5"></path><path d="m7.5 4.27 8.997 5.148"></path></svg>
+                <span class="">Pedir Muestra Personalizada</span>
+              </button>
+
+              <div class="flex items-center justify-center gap-2 pt-2 text-zinc-500 text-[10px]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="truck" aria-hidden="true" class="lucide lucide-truck w-3.5 h-3.5 text-brand"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg>
+                <span class="">Despacho express en 48hs con seguimiento de encomienda y guía de recomendaciones técnicas.</span>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER DEL ESTUDIO -->
+      <footer class="bg-zinc-950 text-zinc-400 px-5 py-7 text-xs border-t border-zinc-800">
+        <div class="flex items-center justify-between mb-4">
+          <div class="font-bold text-white tracking-wider flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-brand"></span>
+            <span class="">STUDIO MOEBIUS</span>
+          </div>
+          <span class="text-[10px] font-mono text-zinc-500">ISO 9001 COLOR STANDARDS</span>
+        </div>
+        <p class="text-[11px] text-zinc-400 leading-relaxed mb-4">
+          Taller de manufactura de merchandising físico de alta fidelidad, serigrafía y acabados vectoriales para marcas independientes y proyectos globales.
+        </p>
+        <div class="text-[10px] text-zinc-600 border-t border-zinc-900 pt-3 flex justify-between items-center">
+          <span class="">© 2026 Studio Moebius Lab.</span>
+          <span class="">Todos los derechos reservados.</span>
+        </div>
+      </footer>
+
+    </main>
+
+    <!-- FIXED BOTTOM TAB NAVIGATION -->
+    <nav class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[440px] bg-white/95 backdrop-blur-md border-t border-zinc-200 py-2 px-3 flex justify-around items-center z-50 shadow-lg">
+      <a href="#hero-section" class="flex flex-col items-center gap-0.5 text-brand">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="home" aria-hidden="true" class="lucide lucide-home w-4 h-4"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+        <span class="text-[9px] font-bold uppercase tracking-wider">Inicio</span>
+      </a>
+      <a href="#muestrario" class="flex flex-col items-center gap-0.5 text-zinc-400 hover:text-zinc-800 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="layout-grid" aria-hidden="true" class="lucide lucide-layout-grid w-4 h-4"><rect width="7" height="7" x="3" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="14" rx="1"></rect><rect width="7" height="7" x="3" y="14" rx="1"></rect></svg>
+        <span class="text-[9px] font-medium uppercase tracking-wider">Catálogo</span>
+      </a>
+      <a href="#servicios" class="flex flex-col items-center gap-0.5 text-zinc-400 hover:text-zinc-800 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sparkles" aria-hidden="true" class="lucide lucide-sparkles w-4 h-4"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg>
+        <span class="text-[9px] font-medium uppercase tracking-wider">Servicios</span>
+      </a>
+      <a href="#asesoria" class="flex flex-col items-center gap-0.5 text-zinc-400 hover:text-zinc-800 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="clipboard-list" aria-hidden="true" class="lucide lucide-clipboard-list w-4 h-4"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="M12 11h4"></path><path d="M12 16h4"></path><path d="M8 11h.01"></path><path d="M8 16h.01"></path></svg>
+        <span class="text-[9px] font-medium uppercase tracking-wider">Consultas</span>
+      </a>
+      <a href="#crea-tu-muestra" class="flex flex-col items-center gap-0.5 text-zinc-400 hover:text-zinc-800 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="package" aria-hidden="true" class="lucide lucide-package w-4 h-4"><path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z"></path><path d="M12 22V12"></path><polyline points="3.29 7 12 12 20.71 7"></polyline><path d="m7.5 4.27 9 5.15"></path></svg>
+        <span class="text-[9px] font-medium uppercase tracking-wider">Muestra</span>
+      </a>
+    </nav>
+
+  </div>
+
+  <script>
+    // Inicializar iconos de Lucide
+    if (window.lucide) {
+      lucide.createIcons();
+    }
+  </script>
+
+
+
+
+
+
+</body></html>
